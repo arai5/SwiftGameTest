@@ -50,7 +50,6 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="applelogo" catalog="system"/>
                                                         <connections>
-                                                            <action selector="didTao:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sa6-Ub-p9D"/>
                                                             <action selector="didTapEatButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LKf-7b-t7X"/>
                                                         </connections>
                                                     </button>
@@ -357,7 +356,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(月曜日)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PO2-JM-lPh">
-                                                        <rect key="frame" x="8" y="40" width="148" height="121"/>
+                                                        <rect key="frame" x="8" y="30" width="148" height="131"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -368,7 +367,7 @@
                                                     <constraint firstAttribute="trailingMargin" secondItem="IIg-aX-bVW" secondAttribute="trailing" constant="8" id="Fxq-vF-moo"/>
                                                     <constraint firstAttribute="bottomMargin" secondItem="IIg-aX-bVW" secondAttribute="bottom" constant="16" id="JDC-aM-7fE"/>
                                                     <constraint firstItem="IIg-aX-bVW" firstAttribute="leading" secondItem="ust-nu-jIx" secondAttribute="leadingMargin" constant="8" id="T2W-Bl-lAE"/>
-                                                    <constraint firstItem="PO2-JM-lPh" firstAttribute="top" secondItem="ust-nu-jIx" secondAttribute="top" constant="40" id="f0F-S5-stu"/>
+                                                    <constraint firstItem="PO2-JM-lPh" firstAttribute="top" secondItem="ust-nu-jIx" secondAttribute="top" constant="30" id="f0F-S5-stu"/>
                                                     <constraint firstAttribute="trailing" secondItem="PO2-JM-lPh" secondAttribute="trailing" constant="8" id="it3-Aa-VFQ"/>
                                                     <constraint firstItem="PO2-JM-lPh" firstAttribute="leading" secondItem="ust-nu-jIx" secondAttribute="leading" constant="8" id="j1L-Df-UUg"/>
                                                     <constraint firstAttribute="bottom" secondItem="PO2-JM-lPh" secondAttribute="bottom" id="uXf-Z7-031"/>
